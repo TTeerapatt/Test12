@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cotainer {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #123a53 ;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    height: 550px;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0.5rem;
+    padding-left: 4.1rem;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 1rem;
+    padding-right: 5rem;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;    
+}
+
+.header-con {
+    display: flex;
+}
+
+.header {
+    padding-top: 8.5rem;
+    padding-left: 6.5rem;
+}
+
+.header .a-1{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header .a-2{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 0.5rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header h3 {
+    color: #989797;
+    margin-top: 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header .header-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header-img {
+    padding-top: 2.5rem;
+    padding-left: 18rem;
+}
+
+.sponsor-con {
+    background-color: #e6e2e2;
+    width: 100%;
+    height: 80px;
+}
+
+.sponsor-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.sponsor-info .sponsor-1 {
+    font-family: 'Skranji', cursive;
+}
+
+.sponsor-info .sponsor-2 {
+    padding-top: 5px;
+    font-family: 'Anton', sans-serif;
+}
+
+.sponsor-info .sponsor-3 {
+    font-family: 'Caveat', cursive;
+}
+
+.sponsor-info .sponsor-4 {
+    font-family: 'Satisfy', cursive;
+}
+
+.sponsor-info .sponsor-5 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.sponsor-info .sponsor-6 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Aboutus {
+    padding-left: 45rem;
+    padding-top: 3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #113348;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    padding-left: 5rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: .5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer-bottom p {
+    color: #fff;
+}
